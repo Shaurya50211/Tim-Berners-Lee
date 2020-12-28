@@ -1,0 +1,119 @@
+body {
+	text-align: center;
+	padding-top: 700px;
+}
+
+#welcomeSec {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 700px;
+	width: 100%;
+	background: linear-gradient(blue 0%, aqua 100%);
+	display: table;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+}
+
+.welcomeDiv {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.profileImg {
+	border-radius: 50px;
+	width: 300px;
+	height: 200px;
+	margin-bottom: 50px;
+}
+
+
+#bioSec {
+	font-size: 18px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.line {
+	width: 100px;
+	height: 6px;
+	background-color: aqua;
+	margin: 4px auto;
+}
+
+#AM {
+	text-shadow: 2px 2px orange;
+	font-family: 'Chelsea Market', cursive;
+}
+
+.x {
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+}
+
+.menu {
+	font-family: 'Architects Daughter', cursive;
+	position: fixed;
+	background: #3BC14A;
+	margin-top: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 10;
+}
+
+.links {
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 25px;
+	display: inline;
+	font-size: 18px;
+
+}
+
+.links:hover {
+	text-decoration: underline;
+	font-size: 26px;
+}
+
+a {
+	text-decoration: none;
+	color: yellow;
+	text-shadow: 2px 2px green;
+}
+
+#writings a {
+	text-shadow: none !important;
+	text-decoration: underline !important;
+	color: blue !important;
+}
+
+html {
+	background-color: lightcoral;
+	scroll-behavior: smooth;
+}
+
+.i:hover {
+	color: blue;
+}
+
+.i {
+	padding-bottom: 53.8px;
+}
+
+.Contact1 a {
+	text-shadow: none;
+}
+.Contact1 h3{
+	display: inline;
+}
+i {
+	
+	color: black;
+}
+#Contact iframe{
+	width: 100%;
+}
